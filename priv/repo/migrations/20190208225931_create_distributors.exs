@@ -1,8 +1,8 @@
-defmodule Example.Repo.Migrations.CreateCharacters do
+defmodule Example.Repo.Migrations.CreateDistributors do
   use Ecto.Migration
 
   def change do
-    create table(:characters) do
+    create table(:distributors) do
       add(:name, :string)
       add(:movie_id, references(:movies))
     end

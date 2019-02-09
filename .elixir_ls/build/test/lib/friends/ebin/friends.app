@@ -1,7 +1,7 @@
 {application,friends,
              [{applications,[kernel,stdlib,elixir,logger,postgrex,ecto]},
               {description,"friends"},
-              {modules,['Elixir.Example.Character',
+              {modules,['Elixir.Example.Actor','Elixir.Example.Character',
                         'Elixir.Example.Distributor','Elixir.Example.Movie',
                         'Elixir.Example.Person','Elixir.Example.Repo',
                         'Elixir.Friends','Elixir.Friends.Application']},
